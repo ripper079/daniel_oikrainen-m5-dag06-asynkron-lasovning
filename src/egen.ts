@@ -8,4 +8,7 @@
 
 export function vanta(ms: number): Promise<void> {
   // TODO
+  return new Promise<void>((resolve) => {
+    setTimeout(resolve, ms);
+  });
 }
