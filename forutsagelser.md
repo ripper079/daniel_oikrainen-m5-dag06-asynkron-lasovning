@@ -38,5 +38,10 @@ DVS
    Gäller hålla tungan rätt i mun här!
 
 5. JavaScript väntar inte på `setTimeout`, utan ...
+   kör stacken först, sedan microtask kön och setTimeout (som är på macrotask kön) körs sist
 6. En promise har tre tillstånd: ...
+   - Pending
+   - Fullfilled
+   - Rejected
 7. `then` körs alltid ...
+   När ett promise object har blivit resolved (ibland kallas det även fulfilled)
